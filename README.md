@@ -45,5 +45,6 @@ pip install -r requirements.txt
 # Create a .env file in the root directory and add your API keys:
 GOOGLE_GENERATIVE_AI_KEY=your_google_api_key
 PINECONE_API_KEY=your_pinecone_api_key
+
 # Run the application 
 streamlit run backend_with_ui.py
