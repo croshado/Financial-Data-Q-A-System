@@ -1,5 +1,5 @@
-streamlit==1.16.0
-PyPDF2==3.0.0
-google-generativeai==0.1.0
-pinecone-client==2.2.1
+streamlit
+PyPDF2
+google-generativeai
+pinecone-client
 python-dotenv
