@@ -36,13 +36,14 @@ This application allows users to upload PDF documents containing financial data 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-repository.git
-cd your-repositor
+git clone https://github.com/croshado/Financial-Data-Q-A-System
+cd Financial-Data-Q-A-System
 
+# Install libraries 
 pip install -r requirements.txt
 
-Create a .env file in the root directory and add your API keys:
+# Create a .env file in the root directory and add your API keys:
 GOOGLE_GENERATIVE_AI_KEY=your_google_api_key
 PINECONE_API_KEY=your_pinecone_api_key
-
+# Run the application 
 streamlit run backend_with_ui.py
